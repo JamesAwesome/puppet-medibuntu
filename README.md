@@ -2,8 +2,8 @@ Medibuntu Module
 ================
 
 This module will install the Medibuntu software
-repository. It can be installed by using include
-or by calling as a parameterized class.
+repository. The module can be called using 
+include or as a parameterized class.
 
 Parameters:
 -----------
