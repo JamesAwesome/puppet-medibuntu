@@ -4,7 +4,7 @@ class medibuntu::apport {
     /^(9\.10|[1-9][0-9]\.[0-9]+)$/: {
       package {['app-install-data-medibuntu',
         'apport-hooks-medibuntu']:
-        ensure => latest,
+        ensure => installed,
       }
     }
     default: {
