@@ -1,0 +1,8 @@
+name 'jamesawesome/medibuntu'
+version '0.0.1'
+dependency 'puppetlabs/apt', '>= 1.1.0'
+project_page 'http://github.com/jamesawesome/puppet-medibuntu'
+source 'git@github.com:medibuntu/puppet-medibuntu'
+author 'James Awesome Morelli'
+license 'Apache 2.0'
+description 'This module installs the medibuntu repository'
