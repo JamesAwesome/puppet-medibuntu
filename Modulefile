@@ -5,4 +5,8 @@ project_page 'http://github.com/jamesawesome/puppet-medibuntu'
 source 'git@github.com:medibuntu/puppet-medibuntu'
 author 'James Awesome Morelli'
 license 'Apache 2.0'
-description 'This module installs the medibuntu repository'
+summary 'Installs the medibuntu repository'
+description 'This module will add the proper medibuntu sources
+  and gpg keys. You can configure it to include or exclude
+  non-free sources as well as hooks for the Ubuntu Software 
+  Center'
