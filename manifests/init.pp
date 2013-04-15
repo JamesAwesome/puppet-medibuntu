@@ -24,6 +24,6 @@ class medibuntu(
   }
 
   Class['medibuntu::repo'] ->
-    Class['medibuntu::packages']
+    Class['medibuntu::apport']
 
 }
